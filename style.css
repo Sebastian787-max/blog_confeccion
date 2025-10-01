@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ff03cd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Encabezado */
+header {
+    background: #e453eea1;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Menú */
+nav.menu {
+    background: #ffa2f7;
+    text-align: center;
+    padding: 10px;
+}
+
+nav.menu ul {
+    list-style: none;
+}
+
+nav.menu ul li {
+    display: inline-block;
+    background: #ffffcc;
+    padding: px 15px;
+    margin: 15px 5px;
+    border: 1px solid #000;
+}
+
+/* Sección izquierda */
+.seccion {
+    float: left;
+    width: 70%;
+    background: #9c1891;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+.seccion h1 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.seccion h2 {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.seccion p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.seccion img {
+    display: block;
+    margin: 10px auto;
+}
+
+.seccion footer {
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Aside derecho */
+aside {
+    position: relative;
+    top: -300px;
+    float:right;
+    width: 20%;
+    margin: 20px;
+    margin-left: 20px;
+    clear: right 10px;
+}
+
+aside blockquote {
+    background: #ffffcc;
+    padding: 10px;
+    border: 4px solid #e181ef;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    clear: both;
+    background: #666666;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+}
